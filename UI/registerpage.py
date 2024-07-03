@@ -4,11 +4,9 @@ import json
 from urllib.request import urlopen
 from prompt_toolkit.shortcuts import input_dialog
 
-from pagemaker import PageMaker
+from pagemaker import PageMaker, root
 from loginpage import LoginPage
 
-
-root = "http://127.0.0.1:8000"
 
 class RegisterPage(PageMaker):
     def __init__(self):

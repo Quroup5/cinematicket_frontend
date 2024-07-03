@@ -4,11 +4,10 @@ import os
 import urllib
 import json
 from urllib.request import urlopen
-from home import HomePage
+from home import HomePage, root
 
 from pagemaker import PageMaker
 # from ProfilePage import ProfilePage
-root = "http://127.0.0.1:8000"
 
 class LoginPage(PageMaker):
     def __init__(self):
